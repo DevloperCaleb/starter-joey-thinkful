@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+}
+
+header {
+    background-color: rgb(22, 33, 95);
+    margin-bottom: 40px;
+}
+
+header h1 {
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding-top: 20px;
+    font-size: 60px;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul {
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+}
+
+header nav ul li a {
+    color: white;
+    margin: 0 20px 0 0;
+    text-decoration: none;
+    font-size: 18px;
+    font-family:'Courier New', Courier, monospace ;
+}
+
+header nav ul li:last-child a {
+    margin-right: 0px;
+}
+
+@media all and (min-width: 600px) {
+    header {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 30px;
+    }
+
+    header h1 {
+        margin: 14px 0;
+        padding-top: 0;
+    }
+
+    header nav {
+        margin-top: 24px;
+    }
+
+    header nav ul li a:hover {
+        color:rgb(131, 128, 128);
+    }
+}
